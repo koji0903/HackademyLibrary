@@ -1,0 +1,20 @@
+ja:
+  activerecord:
+    models:
+      product: 商品
+      user:    ユーザー
+    attributes:
+      product:
+        name:        商品名
+        description: 商品説明
+        price:       値段
+        released_at: 販売日
+    　user:
+        facebookID:  FacebookID 
+    　  name:        名前
+    # エイリアス
+#    users:
+#        *user
+#    products:
+#      *product
+

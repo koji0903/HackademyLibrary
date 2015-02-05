@@ -23,6 +23,9 @@ module HackademyLibrary
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
+    # 言語設定
     config.i18n.default_locale = :ja
+    # タイムゾーン設定
+    config.time_zone = 'Tokyo'
   end
 end
